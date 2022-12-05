@@ -1,0 +1,161 @@
+{
+font: 12px sans-serif
+;
+}
+.underline-input {
+  border: none;
+  border-bottom: 1px solid #d9d9d9;
+}
+button.ant-btn.ant-btn-primary {
+    align-items: center;
+    display: flex;
+}
+.disabled-row {
+background-color: #dcdcdc;
+pointer-events: none;
+}
+.ant-popover-buttons {
+  display: flex;
+}
+.ant-divider-inner-text{
+    font-size:12px;
+}
+.ant-form-horizontal .ant-form-item-label {
+  min-width: 110px;
+}
+.ant-divider-horizontal.ant-divider-with-text::before, .ant-divider-horizontal.ant-divider-with-text::after{
+    top:auto !important;
+}
+
+@media (min-width: 1024px){
+    .lg\:w-1\/2 {
+        width: 47% !important;
+    }
+}
+
+@media (min-width: 1024px){
+    .drawer-width .ant-drawer-content-wrapper{
+        width: 50% !important;
+    }
+}
+
+@media (min-width: 750px){
+    .drawer-width .ant-drawer-content-wrapper{
+        width: 70% !important;
+    }
+}
+
+@media (max-width: 750px){
+    .drawer-width .ant-drawer-content-wrapper{
+        width: 90% !important;
+    }
+}
+
+
+.slds-tabs--path .slds-is-current .slds-tabs--path__link, .slds-tabs--path .slds-is-current .slds-tabs_path__link, .slds-tabs--path .slds-is-lost .slds-tabs--path__link, .slds-tabs--path .slds-is-lost .slds-tabs_path__link, .slds-tabs_path .slds-is-current .slds-tabs--path__link, .slds-tabs_path .slds-is-current .slds-tabs_path__link, .slds-tabs_path .slds-is-lost .slds-tabs--path__link, .slds-tabs_path .slds-is-lost .slds-tabs_path__link {
+color: #fff !important;
+}
+
+.slds-tabs--path .slds-is-complete .slds-tabs--path__link, .slds-tabs--path .slds-is-complete .slds-tabs_path__link, .slds-tabs_path .slds-is-complete .slds-tabs--path__link, .slds-tabs_path .slds-is-complete .slds-tabs_path__link {
+color: #080707 !important;
+}
+
+.scroll-border .ant-table {
+background-image: linear-gradient(to bottom, rgb(244, 245, 247) 16px, transparent 16px),
+linear-gradient(to bottom, rgba(9, 30, 66, 0.13) 0px, rgba(99, 114, 130, 0) 16px),
+linear-gradient(to top, rgba(9, 30, 66, 0.13) 0px, rgba(99, 114, 130, 0) 16px);
+    /*min-height: 900px;*/
+    padding-bottom:2rem;
+}
+
+.ant-table table, .ant-form, .nt-tab, .ant-input, .ant-select, .ant-picker, .ant-picker-input input, .ant-page-header,
+.ant-card, .ant-radio-button-wrapper, .ant-select-item, .ant-btn, .ant-pagination, .ant-input-number, .ant-form label {
+font-size: 12px !important;
+}
+
+
+.w-1\/2 {
+width: 45% !important;
+}
+
+.selected_tab {
+color: #1890ff;
+border-color: #1890ff;
+}
+
+a {
+color: #1890ff !important;
+text-decoration: none;
+background-color: transparent;
+outline: none;
+cursor: pointer;
+transition: color 0.3s;
+-webkit-text-decoration-skip: objects;
+}
+
+.ant-divider-horizontal {
+margin: 8px 0 !important
+}
+
+/*.rebalancer-editor .ant-table-content {*/
+/*    width: 1000px;*/
+/*    overflow-x: scroll;*/
+/*    margin-bottom: 10px;*/
+/*}*/
+
+/*.rebalancer-editor .ant-table-content table td:first-child, .rebalancer-editor th:first-child {*/
+/*    position: sticky;*/
+/*    left: 0;*/
+/*    !*background-color: #ddd;*!*/
+/*    z-index:999;*/
+/*}*/
+
+.Row1Col1 th.ant-table-cell {
+display: none;
+}
+
+.Row1Col1 .ant-table table {
+table-layout: fixed !important;
+}
+
+.card_height {
+min-height: 230px;
+}
+
+.ProgressBar {
+background-color: #F6F6F6
+}
+
+
+@media (min-width: 1200px) {
+.row_card {
+    max-width: 14.2% !important
+}
+}
+
+.word-wrap {
+display: block;
+width: 100%;
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+max-width: 400px;
+padding-right: 1rem;
+}
+
+.word-wrap-two{
+  display: block;
+  width: 100%;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+
+}
+
+.clickable_card:hover {
+cursor: pointer;
+box-shadow: 2px 14px 80px rgb(34 35 58 / 20%);
+}

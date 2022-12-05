@@ -1,0 +1,1 @@
+import Content from "@containers/Main.js";export default Content;
